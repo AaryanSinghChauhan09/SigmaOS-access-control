@@ -3,12 +3,12 @@ name = "SigmaOS-access-control"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "access-control component"
+description = "This repository is currently a minimal no_std component scaffold. Its library exposes a Component value with the fixed name SigmaOS-access-control."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
